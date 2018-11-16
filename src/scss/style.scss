@@ -1,0 +1,51 @@
+@import "spinner";
+
+.products {
+	margin-top: 2rem;
+
+	.product {
+		margin-bottom: 1.5rem;
+
+		.product-image {
+			margin-bottom: 0.5rem;
+		}
+
+		.product-title {
+			font-size: 1.25rem;
+			margin-bottom: 0.25rem;
+		}
+
+		.product-meta {
+			line-height: 1.5;
+			margin-bottom: 0.5rem;
+
+			p:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+
+		.product-price {
+			border: 2px solid rgba(0, 0, 0, 0.5);
+			background-color: #d42426;
+			color: #fff;
+			display: inline-block;
+			padding: 0.25rem 0.5rem;
+		}
+	}
+}
+
+.spinner {
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+	color: black;
+}
